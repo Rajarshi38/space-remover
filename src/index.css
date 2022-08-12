@@ -1,0 +1,61 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.main__container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  /* padding: 10px auto 10px auto; */
+  padding: 10px 0;
+}
+
+.button__text {
+  font-size: 12px;
+}
+.box__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  width: 100%;
+  justify-content: stretch;
+  /* border: 1px solid black; */
+  padding: 10px 20px;
+  gap: 10px;
+}
+
+.input__box {
+  /* border: 1px solid black; */
+}
+
+.textarea {
+  resize: none;
+  width: 100%;
+  height: 250px;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #ccc;
+  color: #3f403f;
+}
+.textarea:focus {
+  outline: 1px solid #aaa;
+}
+.output__box h6 {
+  text-align: right;
+}
